@@ -1,6 +1,6 @@
 # Search_Engine_IR
 Information retrieval project - A search engine project that utilizes Google Cloud Platform (GCP) services. It includes all necessary scripts and configurations for setting up a search index and querying it using GCP.
-In this project we need to retrieve documents ids based on a given query from the corpus of documents wididumps202108 which contains more than 6 million<br />
+In this project we need to retrieve documents ids based on a given query from the corpus of documents wididumps202108 which contains more than 6 million<br /><br />
 documents, we use the search_frontend.py file which contains 5 functions to retrieve information:<br />
 
 search(): This function retrieve up to a 100  documents ids from the most relevant documents in decent order according to a given query based on calculation of cosine similarity if the length of the tokenize query is bigger than 2 words or else returns documents ids with binary function that calculate the joint words from the query and the title doc.<br />
