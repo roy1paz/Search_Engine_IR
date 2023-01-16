@@ -16,4 +16,4 @@ We use the search_frontend.py file which contains 5 functions to retrieve inform
 `get_pageview()`: This function retrieve the number of views of a given doc_id from the corpus.<br />
 
 How to deploy the app:<br />
-in order to operate this you need to open instance in GCP , and then copy the commands from the run_frontend_in_gcp.sh file which let you open an instance in GCP, after that you need to upload serval files: `inverted_index_gcp.py` , `search_frontend.py` and `backend_final.py`, and then you can run `search_frontend.py` in order to operate the all thing, after that you can test this with `test.ipynb` file and use the `new_train.json` file. 
+in order to operate this you need to open instance in GCP , and then copy the commands from the `run_frontend_in_gcp.sh` file which let you open an instance in GCP, after that you need to upload serval files: `inverted_index_gcp.py` , `search_frontend.py` and `backend_final.py`, and then you can run `search_frontend.py` in order to operate the all thing, after that you can test this with `test.ipynb` file and use the `new_train.json` file. 
