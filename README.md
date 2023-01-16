@@ -14,5 +14,5 @@ get_pagerank(): This function retrieve the Page Rank of documents ids if exist f
 
 get_pageview(): This function retrieve the number of views of a given doc_id from the corpus.
 
-How to deploy the app:
+How to deploy the app:\n
 in order to operate this you need to open instance in GCP , and then copy the commands from the run_frontend_in_gcp.sh file which let you open an instance in GCP, after that you need to upload serval files: inverted_index_gcp.py , search_frontend.py and backend_final.py, and then you can run search_frontend.py in order to operate the all thing, after that you can test this with test.ipynb file and use the new_train file. 
