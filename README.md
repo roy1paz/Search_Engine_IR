@@ -1,5 +1,5 @@
 # Search_Engine_IR
-Information retrieval project - A search engine project that utilizes Google Cloud Platform (GCP) services. It includes all necessary scripts and configurations for setting up a search index and querying it using GCP.
+Information retrieval project - A search engine project that utilizes Google Cloud Platform (GCP) services. It includes all necessary scripts and configurations for setting up a search index and querying it using GCP.<br />
 In this project we need to retrieve documents ids based on a given query from the corpus of documents wididumps202108 which contains more than 6 million documents.<br /><br />
 We use the search_frontend.py file which contains 5 functions to retrieve information:<br />
 
